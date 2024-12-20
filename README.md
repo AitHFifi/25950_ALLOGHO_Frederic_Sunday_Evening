@@ -3,6 +3,11 @@ Assignment
 
 Exception Handling Exercises 
 
+This submission demonstrates a practical approach to exception handling in Java. Each exception listed in the assignment is simulated in a specific and meaningful scenario to illustrate its occurrence. The programs employ the following key principles:
+Deliberate Triggering: Each exception is intentionally triggered by creating a realistic scenario where it might naturally occur (e.g., accessing a null object, reading a non-existent file, or performing an invalid type cast).
+Exception Handling: Each program includes appropriate try-catch blocks to catch and handle the exceptions. In some cases, a finally block is used to ensure resources are released, such as closing files or database connections.
+Descriptive Comments: The code is annotated with clear comments explaining the purpose of each block, why the exception occurs, and how it is handled.
+Comprehensive Coverage: Both checked and unchecked exceptions are handled, ensuring all exceptions listed in the assignment are addressed.
 
 // ArithmeticExeceptionE Example
 ```
